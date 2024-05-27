@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safari Rovers Vacations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Safari Rovers Vacations</h1>
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#tours">Recent Tours</a></li>
+                <li><a href="#packages">Safari Packages</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#booking">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="tours">
+            <h2>Recent Tours</h2>
+            <div class="image-gallery">
+                <img src="path/to/image1.jpg" alt="Tour Image 1">
+                <img src="path/to/image2.jpg" alt="Tour Image 2">
+                <img src="path/to/image3.jpg" alt="Tour Image 3">
+            </div>
+        </section>
+        <section id="packages">
+            <h2>Safari Packages</h2>
+            <div class="packages">
+                <div class="package">
+                    <h3>Basic Package</h3>
+                    <p>Starting from $400</p>
+                    <p>Includes transportation, meals, and guided tours.</p>
+                </div>
+                <div class="package">
+                    <h3>Basic Plus Package</h3>
+                    <p>Starting from $700</p>
+                    <p>Includes all Basic Package features plus extra activities.</p>
+                </div>
+                <div class="package">
+                    <h3>Premium Package</h3>
+                    <p>Starting from $1000</p>
+                    <p>All-inclusive package with luxury accommodations and exclusive tours.</p>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"This was the best safari experience of my life! Highly recommended!"</p>
+                <h4>Blessing Wothaya</h4>
+            </div>
+            <div class="testimonial">
+                <p>"Amazing tours and great service. Will definitely book again!"</p>
+                <h4>Simon Mbatia</h4>
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="slider">
+                <div class="slide">
+                    <img src="path/to/image1.jpg" alt="Tour Image 1">
+                </div>
+                <div class="slide">
+                    <img src="path/to/image2.jpg" alt="Tour Image 2">
+                </div>
+                <div class="slide">
+                    <img src="path/to/image3.jpg" alt="Tour Image 3">
+                </div>
+            </div>
+        </section>
+        <section id="location">
+            <h2>Our Location</h2>
+            <div id="map"></div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:safariroversvacations@gmail.com">safariroversvacations@gmail.com</a></p>
+            <p>Phone: <a href="tel:+254743808995">+254743808995</a></p>
+        </section>
+        <section id="social">
+            <h2>Follow Us</h2>
+            <div class="social-links">
+                <a href="https://facebook.com" target="_blank"><img src="path/to/facebook-icon.png" alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="path/to/twitter-icon.png" alt="Twitter"></a>
+                <a href="https://instagram.com" target="_blank"><img src="path/to/instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </section>
+        <section id="newsletter">
+            <h2>Subscribe to our Newsletter</h2>
+            <form id="newsletter-form">
+                <label for="newsletter-email">Email:</label>
+                <input type="email" id="newsletter-email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+        <section id="booking">
+            <h2>Book Your Safari</h2>
+            <form id="booking-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Safari Rovers Vacations</p>
+    </footer>
+    <script src="scripts.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
